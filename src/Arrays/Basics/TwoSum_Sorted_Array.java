@@ -1,6 +1,6 @@
 package Arrays.Basics;
 
-public class TwoSum {
+public class TwoSum_Sorted_Array {
     //Using Two Pointer for Sorted Array...
     static int[] twosum_for_sorted_Array(int[] nums1,int target){
            int left=0;
