@@ -1,1 +1,1 @@
-DSA Problems using JAVA with AAKI
+Solving DSA Problems using JAVA 
