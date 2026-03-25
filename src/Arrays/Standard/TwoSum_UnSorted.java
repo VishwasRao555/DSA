@@ -1,4 +1,4 @@
-package Arrays.Basics;
+package Arrays.Standard;
 
 import java.util.Arrays;
 import java.util.HashMap;
