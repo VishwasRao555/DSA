@@ -1,4 +1,4 @@
-package Arrays.Basics;
+package Arrays.Standard;
 
 public class TwoSum_Sorted_Array {
     //Using Two Pointer for Sorted Array...
