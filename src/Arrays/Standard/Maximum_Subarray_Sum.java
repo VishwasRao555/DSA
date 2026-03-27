@@ -14,7 +14,7 @@ public class Maximum_Subarray_Sum {
         long max_sum=Long.MIN_VALUE;//least value possible to ensure that Long.max(will give max value)
         for(int i:nums){
             prefix_sum+=i;
-            max_sum=Long.max(max_sum,prefix_sum);//replaces the max_sum with maximum value among both
+            max_sum=Math.max(max_sum,prefix_sum);//replaces the max_sum with maximum value among both
             if(prefix_sum<0) prefix_sum=0;//if the prefix_sum at a position is less than 0 (prefix_sum<0), then it will reset to 0
         }
         return max_sum;
