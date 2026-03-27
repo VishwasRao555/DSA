@@ -17,7 +17,7 @@ public class Longest_SubArray_with_Sum_K {
             prefixsum+=nums[i];//Adding the value of current value of nums[i] to prefixsum
             if(map.containsKey(prefixsum-k)){
                 //Updating the length to the biggest length of previous and current length
-                length=Integer.max(length,i-map.get(prefixsum-k));//the second int wil give us the length of subarray in between the i and end of prefixsum-k (which is the SubArray)
+                length=Math.max(length,i-map.get(prefixsum-k));//the second int wil give us the length of subarray in between the i and end of prefixsum-k (which is the SubArray)
             }
             //we should not change or update the value of indexs , because we do it will increase the index value ( and we cant see the longest subarray of sum k)
             if(!map.containsKey(prefixsum)){//we should not add current_prefix if it is already present in hashmap
