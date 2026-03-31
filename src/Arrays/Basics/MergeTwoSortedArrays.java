@@ -15,8 +15,8 @@ public class MergeTwoSortedArrays {
         }
         while (i < n) {
             result[k++] = a[i++];
-        }
-            while (j < m) {
+            }
+        while (j < m) {
                 result[k++] = b[j++];
             }
             return result;
