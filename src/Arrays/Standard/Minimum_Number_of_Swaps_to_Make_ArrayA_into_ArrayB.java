@@ -1,8 +1,8 @@
 package Arrays.Standard;
 
 import java.util.HashMap;
-
-public class Minimum_Number_of_Swaps_to_Make_ArrayA_into_ArrayB {
+//No Extra Space
+public class Minimum_Number_of_Swaps_to_Make_ArrayA_into_ArrayB {//Without Extra Space
     static void main(String[] args) {
         int[] A={20,40,30,10};
         int[] B={10,20,30,40};//Target Array
